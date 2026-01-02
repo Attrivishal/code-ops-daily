@@ -68,7 +68,7 @@ No license file is included by default. If you want to publish or share this rep
 
 ## Roadmap / Ideas
 - Add a short README inside each Day-* folder explaining the day's theme.
-- Add a top-level index (example: `INDEX.md`) with one-line descriptions and direct links to interestSGFGHJKLing files.
+- Add a top-level index (example: `INDEX.md`) with one-line descriptions and direct links to interesting files.
 - Add a small CI check to ensure scripts contain a header (optional).
 
 ## Contact / Questions
