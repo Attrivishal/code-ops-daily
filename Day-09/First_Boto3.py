@@ -20,7 +20,7 @@ s3.create_bucket(
     }
 )
 
-print(f"✅ Bucket -> {bucket_name} created successfully in ap-south-1!")
+print(f" Bucket -> {bucket_name} created successfully in ap-south-1!")
 
 #  this is how we upoload a file to the bucket
 file_name = "my_test_file.txt"
@@ -28,9 +28,9 @@ with open(file_name, 'w') as f:
     f.write(f"This file was uploaded to bucket: {bucket_name}\n")
     f.write("Created using Boto3 Python script.\n")
 
-print(f"\n📄 Created test file: {file_name}")
+print(f"\n Created test file: {file_name}")
 
 # Upload the file
 s3.upload_file(file_name, bucket_name, file_name)
-print(f"✅ Uploaded {file_name} to bucket {bucket_name}")
+print(f" Uploaded {file_name} to bucket {bucket_name}")
 print(f"\n Access your file at:")
