@@ -127,6 +127,7 @@ def quick_aws_check():
         print(f"❌ Error: {e}")
         print("Check your AWS credentials and permissions")
 
-# Run it
+#This is for running the program
 if __name__ == "__main__":
+
     quick_aws_check()
